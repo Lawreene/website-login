@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <link href="model.css" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+          <div class="container">
+            <img src="logo.jpg">
+          </div>
+      </header>
+
+    
+      
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Inscreva-se no nosso site!</h1>
+
+    <div class="form">
+        <form action="server.php" method="post">  
+            <input type="text" name= "name" style="margin: 0.5%;">Nome<br>
+            <input type="text" name= "email" style="margin: 0.5%;">Email<br>
+            <input type="password" name= "password" style="margin: 0.5%;">senha</input><br>
+
+                <select id="gender" name="gender" style="margin: 0.5%;"><br>
+                    <option value="female">Feminino</option><br>
+                    <option value="male">Masculino</option><br>
+                    <option value="others">Outro</option><br>
+                </select>
+                
+        </form>
+      <input type="submit" style="margin: 0.5%;">	
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
